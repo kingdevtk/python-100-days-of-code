@@ -31,3 +31,4 @@ def update_vistors():
     table.put_item(Item={
         "visitor_id":"0",
         "visitor_count": record_count
+    })
